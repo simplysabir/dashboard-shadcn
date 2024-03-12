@@ -23,7 +23,7 @@ import { useState } from "react";
 export function CommandDemo() {
   const [open, setOpen] = useState(false);
   return (
-    <Command className="rounded-lg border shadow-md">
+    <Command className="rounded-lg border">
       <CommandInput placeholder="Type a command or search..." />
       {open && (
         <CommandList>
